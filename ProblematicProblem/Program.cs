@@ -114,7 +114,7 @@ namespace ProblematicProblem
             item = item.ToLower();
             if (item == "yes" || item == "sure" || item == "keep")
                 return true;
-            else if (item == "no" || item == "redo")
+            else if (item == "no" || item == "redo" || item == "no thanks")
                 return false;
             else
                 return false;
